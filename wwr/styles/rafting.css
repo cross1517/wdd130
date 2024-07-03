@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #05668D;
+    --secondary-color: #FCAA67;
+    --accent1-color: #98D2EB;
+    --accent2-color: #003E1F;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Merriweather', serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: rgb(0, 0, 0);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--accent2-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+.sociallinks a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    position:absolute;
+    top: 30%;
+    left: 17%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+article {
+    position:absolute;
+    top: 50%;
+    left: 6%;
+    max-width: 750px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
