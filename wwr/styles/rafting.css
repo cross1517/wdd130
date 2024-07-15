@@ -73,7 +73,7 @@ header nav a {
 
 .hero {
     position: relative;
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,8 @@ header nav a {
 h1 {
     position:absolute;
     top: 30%;
-    left: 40rem;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
@@ -101,17 +102,21 @@ h1 {
 
 article {
     position:absolute;
-    top: 52%;
-    left: 40rem;
-    max-width: 750px;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1200px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px 20px;
     border-radius: 5px;
 }
 
-article h3 {
+article h2 {
     color: black;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 0;
+    text-align: center;
+    width: 100%;
 }
 
 article p {
@@ -122,6 +127,7 @@ article p {
 article img {
     float: right;
     margin: 0 0 auto 20px;
+    width: 50%;
 }
 
 .history {
