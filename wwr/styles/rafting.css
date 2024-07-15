@@ -101,12 +101,22 @@ h1 {
 
 article {
     position:absolute;
-    top: 54%;
+    top: 52%;
     left: 40rem;
     max-width: 750px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px 20px;
     border-radius: 5px;
+}
+
+article h3 {
+    color: black;
+    margin: 0 0 0 80px;
+}
+
+article p {
+    color: black;
+    margin: 0 0 0 0;
 }
 
 article img {
