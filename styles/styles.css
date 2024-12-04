@@ -1,22 +1,28 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: lightblue;
+    --accent1-color: white;
+    --accent2-color: black;
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--accent1-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--accent2-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
