@@ -173,6 +173,10 @@ main {
     height: 200px;
 }
 
+.adventure figure {
+    text-align: center;
+}
+
 footer {
     background-color: var(--primary-color);
     display: flex;
