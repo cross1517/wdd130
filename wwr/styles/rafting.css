@@ -33,7 +33,7 @@ header nav {
 header nav a {
     color: var(--accent1-color);
     text-decoration: none;
-    color: var(--accent1-color);
+    color: black;
     font-family: var(--heading-font);
     border: 1px solid black;
     border-radius: 4px;
@@ -48,12 +48,12 @@ header nav a {
     gap: 2rem;
     padding: 2rem;
     margin: 2rem 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .history h2 {
     grid-column: 1 / -1;
-    color: var(--accent1-color);
+    color: white;
     font-size: 2.5em;
     text-align: center;
 }
@@ -65,12 +65,12 @@ header nav a {
 }
 
 .history p:first-of-type {
-    color: black;
+    color: white;
     grid-column: 1 / 2;
 }
 
 .history p:last-of-type {
-    color: black;
+    color: white;
     grid-column: 3 / 4;
 }
 
@@ -119,8 +119,8 @@ main {
     top: 30px;
     left: 50%;
     transform: translate(-50%);
-    color: var(--accent1-color);
-    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -130,8 +130,8 @@ main {
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--accent1-color);
-    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -159,22 +159,35 @@ main {
     gap: 2rem;
     padding: 2rem;
     margin: 2rem 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .adventure h2 {
     grid-column: 1 / -1;
-    color: var(--accent1-color);
+    color: white;
+    text-align: center;
 }
 
 .adventure img {
     padding: 1rem;
     width: 200px;
     height: 200px;
+    border-radius: 8px;
 }
 
 .adventure figure {
     text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventure figcaption {
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+    background-color: transparent;
 }
 
 footer {
