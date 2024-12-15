@@ -213,3 +213,178 @@ footer a img {
     width: 30px;
     height: 30px;
 }
+
+.big-brother {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.big-brother h1 {
+    color: white;
+    text-align: center;
+}
+
+.big-brother article {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.big-brother article h2 {
+    grid-column: 1 / -1;
+    color: white;
+}
+
+.big-brother article p {
+    color: white;
+    text-align: left;
+}
+
+.big-brother iframe {
+    width: 100%;
+    height: 400px;
+    float: none;
+}
+
+.employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.employee-profiles h2 {
+    grid-column: 1 / -1;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.employee-profiles figure {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee-profiles img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.employee-profiles figcaption {
+    color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+}
+
+.employee-profiles figcaption strong {
+    display: block;
+    font-family: var(--heading-font);
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.contact-form h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--accent2-color);
+    border-radius: 8px;
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-option label {
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.checkbox-group label {
+    color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.02);
+}
