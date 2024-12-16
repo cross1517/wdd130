@@ -422,13 +422,13 @@ footer a img {
 .newsletter form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;  /* This adds more space between form elements */
+    gap: 2rem;
     max-width: 500px;
     margin: 0 auto;
 }
 
 .newsletter .form-group {
-    text-align: left;  /* Aligns labels to the left */
+    text-align: left;
 }
 
 .newsletter label {
@@ -445,7 +445,7 @@ footer a img {
     border-radius: 4px;
     font-family: var(--paragraph-font);
     font-size: 1em;
-    width: 100%;  /* Makes inputs full width */
+    width: 100%;
 }
 
 .newsletter .submit-button {
@@ -457,8 +457,7 @@ footer a img {
     font-size: 1.2em;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;  /* Adds space above the button */
+    margin-top: 1rem;
 }
 
 .newsletter .submit-button:hover {
