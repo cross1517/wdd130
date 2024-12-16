@@ -388,3 +388,242 @@ footer a img {
     background-color: var(--primary-color);
     transform: scale(1.02);
 }
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.newsletter {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;  /* This adds more space between form elements */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter .form-group {
+    text-align: left;  /* Aligns labels to the left */
+}
+
+.newsletter label {
+    color: white;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+}
+
+.newsletter input {
+    padding: 0.8rem;
+    border: 2px solid var(--accent2-color);
+    border-radius: 4px;
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+    width: 100%;  /* Makes inputs full width */
+}
+
+.newsletter .submit-button {
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-family: var(--heading-font);
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;  /* Adds space above the button */
+}
+
+.newsletter .submit-button:hover {
+    background-color: var(--primary-color);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--accent1-color);
+}
+
+.feature {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-family: var(--heading-font);
+    font-size: 1.8em;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    color: #333;
+}
+
+.trip-highlights {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .8);
+    margin: 2rem 0;
+}
+
+.trip-highlights h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.trip-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.trip-card h3 {
+    font-family: var(--heading-font);
+    font-size: 1.8em;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.trip-card .difficulty {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.trip-card .description {
+    font-size: 1.1em;
+    margin: 0;
+    text-align: left;
+}
+
+.trip-card .trip-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+}
+
+.trip-card .trip-features li {
+    margin-bottom: 0.5rem;
+}
+
+.trip-card .book-button {
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-family: var(--heading-font);
+    font-size: 1.2em;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.trip-card .book-button:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.trip-table {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .8);
+    margin: 2rem 0;
+}
+
+.trip-table h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--accent2-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--heading-font);
+    font-weight: normal;
+}
+
+.trip-table tr:last-child td {
+    border-bottom: none;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: var(--accent1-color);
+}
