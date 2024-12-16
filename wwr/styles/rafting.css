@@ -544,7 +544,7 @@ footer a img {
 }
 
 .trip-card .difficulty {
-    color: var(--secondary-color);
+    color: black;
     font-size: 1.2em;
     margin: 0;
 }
